@@ -5,10 +5,12 @@
   "author": "Scott Moss <willscottmoss@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "nodemon": "^2.0.4"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "nodemon exercises/api/server.js"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
